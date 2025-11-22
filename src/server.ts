@@ -1,10 +1,10 @@
 import express from "express"
 import cors from "cors"
 import dotenv from "dotenv"
-import historicoRoutes from "./routes/historicoRoutes"
-import diagnosticoRoutes from "./routes/diagnosticoRoutes"
-import transcricaoRoutes from "./routes/transcricaoRoutes"
-import chatRoutes from "./routes/chatRoutes"
+import historicoRoutes from "./routes/historicoRoutes.js"
+import diagnosticoRoutes from "./routes/diagnosticoRoutes.js"
+import transcricaoRoutes from "./routes/transcricaoRoutes.js"
+import chatRoutes from "./routes/chatRoutes.js"
 
 dotenv.config()
 

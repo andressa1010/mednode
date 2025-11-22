@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { gerarDiagnosticoIA } from "../Services/iaServices";
+import { gerarDiagnosticoIA } from "../Services/iaServices.js";
 import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();

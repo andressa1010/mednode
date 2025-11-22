@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { gerarDiagnostico } from "../Controllers/diagnosticoControllers";
+import { gerarDiagnostico } from "../Controllers/diagnosticoControllers.js";
 
 
 const router = Router()

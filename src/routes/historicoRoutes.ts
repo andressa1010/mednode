@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { listarConsultas } from "../Controllers/historicoControllers";
+import { listarConsultas } from "../Controllers/historicoControllers.js";
 
 
 const router = Router()
